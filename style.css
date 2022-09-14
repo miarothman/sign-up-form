@@ -1,0 +1,73 @@
+/* 
+Google Font:
+font-family: 'Fira Mono', monospace;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Fira Mono', monospace;
+    padding: 0;
+    margin: 0;
+}
+
+content {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    
+}
+
+/* LEFT SIDE OF PAGE CONTENTS STARTS HERE */
+.left-side {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    position: relative;
+    
+}
+
+#plants {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    top: 250px;
+    position: absolute;
+}
+
+.logo img {
+    width: 100px;
+    padding-right: 20px;
+}
+
+/* RIGHT SIDE OF PAGE CONTENTS STARTS HERE */
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+
+/* FORM CONTENT */
+.form {
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    color: #000;
+}
