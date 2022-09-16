@@ -76,16 +76,22 @@ content {
 .container {
     padding: 25px 30px;
     width: 550px;
-    background: #fff;
+    background: rgba(255,255,255);
     border-radius: 5px;
     font-size: 1.2rem;
+    color: lightslategray;
+    font-weight:700;
+    font-size: 1rem;
 }
 
 .container .title {
     font-size: 30px;
-    font-weight: 700;
-    padding-bottom: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
     text-align: center;
+    font-size: 1.5;
+    color: lightslategray;
 }
 
 .container form .user-details {
@@ -102,4 +108,25 @@ form .user-details .input-box {
 .input-box input {
     height: 25px;
     width: 230px;
+}
+
+form .button input {
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(135deg, #D8B5DF, #AEA6D2);
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+form .button input:hover {
+    background: linear-gradient(-135deg, #D8B5DF, #AEA6D2);
 }
