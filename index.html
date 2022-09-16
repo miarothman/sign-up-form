@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <div class="content">
@@ -20,33 +21,34 @@
         <div class="right-side">
             <div class="container">
                 <div class="title">Client Registration</div>
-                <form action="#">
+                <form action="#" id="form" method="GET">
                     <div class="user-details">
                         <div class="input-box">
                             <span class="details">First Name</span><br>
-                            <input type="text" name="firstName" required>
+                            <input id="firstName" type="text" name="firstName" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Last Name</span><br>
-                            <input type="text" name="lastName" required>
+                            <input id="lastName" type="text" name="lastName" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Email</span><br>
-                            <input type="email" name="email" required>
+                            <input id="email" type="email" name="email" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Phone</span><br>
-                            <input type="text" name="phone" required>
+                            <input id="phone" type="tel" name="phone" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Password</span><br>
-                            <input type="password" name="password" required>
+                            <input id="password" type="password" name="password" required>
                         </div>
                         <div class="input-box">
                             <span class="details">Confirm Password</span><br>
-                            <input type="password" name="confirmPassword" required>
+                            <input id="confirmPassword" type="password" name="confirmPassword" required>
                         </div>
                     </div>
+                    <div id="error"></div>
                     <button id="register-btn" type="submit">Register</button>
                 </form>
             </div>

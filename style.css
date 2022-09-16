@@ -130,3 +130,8 @@ form .user-details .input-box {
 #register-btn:hover {
     background: linear-gradient(-135deg, #D8B5DF, #AEA6D2);
 }
+
+#error {
+    text-align: center;
+    padding-bottom: 10px;
+}
