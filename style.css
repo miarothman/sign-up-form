@@ -110,7 +110,7 @@ form .user-details .input-box {
     width: 230px;
 }
 
-form .button input {
+#register-btn {
     font-size: 18px;
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
@@ -127,6 +127,6 @@ form .button input {
     font-weight: 700;
 }
 
-form .button input:hover {
+#register-btn:hover {
     background: linear-gradient(-135deg, #D8B5DF, #AEA6D2);
 }
