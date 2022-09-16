@@ -1,11 +1,13 @@
 /* 
 Google Font:
 font-family: 'Fira Mono', monospace;
+font-family: 'Montserrat', sans-serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
 
 body {
-    font-family: 'Fira Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -34,15 +36,12 @@ content {
 
 .logo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(255,255,255,0.7);
     width: 100%;
-    color: #fff;
-    font-size: 2rem;
-    text-transform: uppercase;
-    top: 250px;
+    top: 200px;
     position: absolute;
 }
 
@@ -51,23 +50,56 @@ content {
     padding-right: 20px;
 }
 
+.logo #logo_title {
+    color: #D8B5DF;
+    font-size: 30px;
+    letter-spacing: 7px;
+}
+.logo #logo_subtitle {
+    color: #D8B5DF;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
 /* RIGHT SIDE OF PAGE CONTENTS STARTS HERE */
 .right-side {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background: linear-gradient(135deg, #D8B5DF, #AEA6D2);
     width: 50%;
     height: 100vh;
-    float: right;
 }
 
 /* FORM CONTENT */
-.form {
-    width: 500px;
-    height: 500px;
-    background-color: #fff;
-    color: #000;
+.container {
+    padding: 25px 30px;
+    width: 550px;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.container .title {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box {
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.input-box input {
+    height: 25px;
+    width: 230px;
 }
