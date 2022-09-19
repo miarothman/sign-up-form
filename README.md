@@ -3,8 +3,8 @@ This is a sign up form created for an imaginary service.
 Live Demo: https://miarothman.github.io/sign-up-form/
 
 Built using:
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
 This project allowed me to:   
